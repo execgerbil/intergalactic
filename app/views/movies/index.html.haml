@@ -1,6 +1,8 @@
 %h1 Welcome to Movies!
 
-
+%form{id: "form"} 
+  %input :search
+  %submit 
 :javascript
   $.ajax({
      data:      'title=Matrix&format=JSONP',
